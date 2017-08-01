@@ -1,5 +1,9 @@
 # AMAS
-All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
+Project: All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
+
+Author: Hieu Tran, Research Fellow at University of Waterloo, Canada. Email: hieutran1985@gmail.com
+
+Publication: AMAS optimizing the partition and filtration of adaptive seeds to speed up read mapping. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2015.
 
 AMAS is designed to exhaustively search for all possible mapping locations of high-throughput sequencing (HTS) reads in a reference sequence, with up to a given edit distance (including substitutions and indels).
 
