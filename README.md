@@ -5,7 +5,7 @@ Author: Hieu Tran (@nh2tran, hieutran1985@gmail.com).
 
 Publication: AMAS optimizing the partition and filtration of adaptive seeds to speed up read mapping. _IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2015_.
 
-#
+##
 
 AMAS is designed to exhaustively search for all possible mapping locations of high-throughput sequencing (HTS) reads in a reference sequence, with up to a given edit distance (including substitutions and indels).
 
@@ -51,7 +51,7 @@ To compile from the source code:
 	
 	2) The compiled binaries will be stored in folder "release".
 	
-# More Details and Options
+## More Details and Options
 
 AMAS consists of two tools: "amas_indexer" to index the reference sequence 
 and "amas_mapper" to perform the read mapping.
