@@ -13,7 +13,7 @@ AMAS features major improvements of the mapping, partition and filtration of ada
 
 Multi-threading is supported for the mapping step. We will implement multi-threading for the indexing step very soon. The memory footprint is a bit high. For the human genome, ~19GB of memory is required. This shall also be improved in future development.
 
-AMAS is implemented in C++ based on the source code of and the Masai and SeqAn library. Our contributions include the index, the partition and filtration of adaptive seeds. For seed extension, we borrowed Masai's implementation of the Myers' bit-vector dynamic programming algorithm. We also borrowed I/O components from Masai for handling the input reference sequence, HTS reads, and the SAM output.
+AMAS is implemented in C++ based on Masai and SeqAn library. Our contributions include the index, the partition and filtration of adaptive seeds. For seed extension, we borrowed Masai's implementation of the Myers' bit-vector dynamic programming algorithm. We also borrowed I/O components from Masai for handling the input reference sequence, HTS reads, and the SAM output.
 
 # How to use Binaries & Source Code:
 
