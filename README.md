@@ -86,14 +86,14 @@ For "amas_indexer", only the genome file needs to be provided.
 (II) Pair-end Reads Mapping
 
 The current version of AMAS does not directly perform pair-end reads mapping. 
-It is done with the help of "masai_output_pe" from MASAI.
+It is done with the help of "masai_output_pe" from Masai.
 
 For pair-end reads, each read of a pair is first mapped to the reference sequence with the output in the RAW format.
 
 	Example: "bin/amas_mapper hg19.fasta hg19_100k_1.fastq -raw"
 			 "bin/amas_mapper hg19.fasta hg19_100k_2.fastq -raw"
 
-Then the alignments of two reads of the same pair are paired off by using the tool "masai_output_pe" from MASAI.
+Then the alignments of two reads of the same pair are paired off by using the tool "masai_output_pe" from Masai.
 
 	Example: "bin/masai_output_pe hg19.fasta hg19_100k_1.fastq hg19_100k_2.fastq 
 			hg19_100k_1.fastq.amas.raw hg19_100k_2.fastq.amas.raw 
