@@ -91,12 +91,12 @@ It is done with the help of "masai_output_pe" from Masai.
 For pair-end reads, each read of a pair is first mapped to the reference sequence with the output in the RAW format.
 
 	Example: "bin/amas_mapper hg19.fasta hg19_100k_1.fastq -raw"
-			 "bin/amas_mapper hg19.fasta hg19_100k_2.fastq -raw"
+		 "bin/amas_mapper hg19.fasta hg19_100k_2.fastq -raw"
 
 Then the alignments of two reads of the same pair are paired off by using the tool "masai_output_pe" from Masai.
 
 	Example: "bin/masai_output_pe hg19.fasta hg19_100k_1.fastq hg19_100k_2.fastq 
-			hg19_100k_1.fastq.amas.raw hg19_100k_2.fastq.amas.raw 
-			-o hg19_100k.fastq.amas.sam"
+				      hg19_100k_1.fastq.amas.raw hg19_100k_2.fastq.amas.raw 
+				      -o hg19_100k.fastq.amas.sam"
 
 Use "-h/--help" to get more useful options of "masai_output_pe", such as the fragment length, etc.
