@@ -1,7 +1,8 @@
 # AMAS
 #########################################################################
-All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
+# All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
 #########################################################################
+
 
 AMAS is designed to exhaustively search for all possible mapping locations of high-throughput sequencing (HTS) reads in a reference sequence with up to a given edit distance (including substitutions and indels).
 
