@@ -1,5 +1,5 @@
 # AMAS
-Project: All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
+Project: All-Mapping tool using Adaptive Seeds for high-throughput sequencing data.
 
 Author: Hieu Tran (@nh2tran, hieutran1985@gmail.com).
 
