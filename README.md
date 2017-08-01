@@ -1,7 +1,7 @@
 # AMAS
 All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
 
-AMAS is designed to exhaustively search for all possible mapping locations of high-throughput sequencing (HTS) reads in a reference sequence with up to a given edit distance (including substitutions and indels).
+AMAS is designed to exhaustively search for all possible mapping locations of high-throughput sequencing (HTS) reads in a reference sequence, with up to a given edit distance (including substitutions and indels).
 
 AMAS features major improvements of the mapping, partition and filtration of adaptive seeds to speed up the all-mapping process while preserving sensitivity. In addition to all-mapping, AMAS also supports best-mapping and -k mapping modes.
 
