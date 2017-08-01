@@ -1,7 +1,7 @@
 # AMAS
 Project: All-Mapping tool using Adaptive Seeds for high-throughput sequencing data
 
-Author: Hieu Tran, Research Fellow at University of Waterloo, Canada. Email: hieutran1985@gmail.com
+Author: Hieu Tran, Postdoctoral Research Fellow at University of Waterloo, Canada.
 
 Publication: AMAS optimizing the partition and filtration of adaptive seeds to speed up read mapping. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2015.
 
