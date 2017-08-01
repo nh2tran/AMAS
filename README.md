@@ -5,9 +5,7 @@ AMAS is designed to exhaustively search for all possible mapping locations of hi
 
 AMAS features major improvements of the mapping, partition and filtration of adaptive seeds to speed up the all-mapping process while preserving sensitivity. In addition to all-mapping, AMAS also supports best-mapping and -k mapping modes.
 
-Multi-threading is supported for the mapping step. We will implement multi-threading for the indexing step very soon.
-
-The memory footprint is a bit high. For the human genome, ~19GB of memory is required. This shall also be improved in future development.
+Multi-threading is supported for the mapping step. We will implement multi-threading for the indexing step very soon. The memory footprint is a bit high. For the human genome, ~19GB of memory is required. This shall also be improved in future development.
 
 AMAS is implemented in C++ based on the source code of MASAI and the SeqAn library. Our contributions include the index, the partition and filtration of adaptive seeds.For seed extension, we borrowed MASAI's implementation of the Myers' bit-vector dynamic programming algorithm. We also borrowed I/O components from MASAI for handling the input reference sequence, HTS reads, and the SAM output.
 
