@@ -1,0 +1,23 @@
+SRC=../src
+CXXFLAGS+=-I../../core/include
+LDFLAGS+=-lrt
+
+default: all
+all: amas_indexer amas_mapper
+
+amas_indexer: indexer.o
+	$(CXX) -o amas_indexer indexer.o $(LDFLAGS)
+
+indexer.o: $(SRC)/amas_indexer.cpp
+	$(CXX) $(CXXFLAGS) -c -o indexer.o $(SRC)/amas_indexer.cpp
+
+amas_mapper: mapper.o
+	$(CXX) -fpermissive -fopenmp -o amas_mapper mapper.o $(LDFLAGS) 
+
+mapper.o: $(SRC)/amas_mapper.cpp
+	$(CXX) $(CXXFLAGS) -fpermissive -fopenmp -c -o mapper.o $(SRC)/amas_mapper.cpp
+
+clean:
+	rm -f indexer.o amas_indexer mapper.o amas_mapper
+
+.PHONY: default all clean
