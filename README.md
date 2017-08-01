@@ -13,8 +13,6 @@ Multi-threading is supported for the mapping step. We will implement multi-threa
 
 AMAS is implemented in C++ based on the source code of and the Masai and SeqAn library. Our contributions include the index, the partition and filtration of adaptive seeds. For seed extension, we borrowed Masai's implementation of the Myers' bit-vector dynamic programming algorithm. We also borrowed I/O components from Masai for handling the input reference sequence, HTS reads, and the SAM output.
 
-Any feedback or error reports can be sent to hieutran1985@gmail.com
-
 # How to use Binaries & Source Code:
 
 (I) Pre-compiled Binaries
