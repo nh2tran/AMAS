@@ -32,7 +32,7 @@ The provided binaries were compiled and tested on a 64-bit Linux (Red Hat) platf
 		4.1) Type "bin/amas_indexer ce10.fasta" to build the tree index from the genome.
 		This indexing step should take about 5 minutes for the sample genome.
 		
-		4.3) Type "bin/amas_mapper ce10.fasta ce10_10k.fastq" to perform the read mapping.
+		4.2) Type "bin/amas_mapper ce10.fasta ce10_10k.fastq" to perform the read mapping.
 		This mapping step should take about 10 seconds for the sample files.
 		
 	5) For large genomes, e.g. human genome, if you encounter errors when building the index, 
@@ -51,9 +51,7 @@ To compile from the source code:
 	
 	2) The compiled binaries will be stored in folder "release".
 	
-=========================
-More Details and Options
-=========================
+# More Details and Options
 
 AMAS consists of two tools: "amas_indexer" to index the reference sequence 
 and "amas_mapper" to perform the read mapping.
